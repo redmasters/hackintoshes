@@ -1,0 +1,202 @@
+====CPU====
+model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+
+====GPU MODEL====
+00:02.0 VGA compatible controller: Intel Corporation CometLake-S GT2 [UHD Graphics 630]
+
+====CHIPSET MODEL====
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 3.1.1 present.
+
+Handle 0x0002, DMI type 2, 15 bytes
+Base Board Information
+	Manufacturer: ASUSTeK COMPUTER INC.
+	Product Name: PRIME H310M-E/BR
+	Version: Rev X.0x
+	Serial Number: 190364549704168
+	Asset Tag: Default string
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: Default string
+	Chassis Handle: 0x0003
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x001D, DMI type 10, 6 bytes
+On Board Device Information
+	Type: Video
+	Status: Enabled
+	Description:    To Be Filled By O.E.M.
+
+Handle 0x0048, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0049, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Video
+	Type: Video
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:02.0
+
+Handle 0x004A, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 2
+	Bus Address: 0000:00:14.0
+
+Handle 0x004B, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 3
+	Bus Address: 0000:00:14.2
+
+Handle 0x004C, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 4
+	Bus Address: 0000:00:16.0
+
+Handle 0x004D, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - SATA
+	Type: SATA Controller
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:17.0
+
+Handle 0x004E, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 5
+	Bus Address: 0000:00:1f.0
+
+Handle 0x004F, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Sound
+	Type: Sound
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:1f.3
+
+Handle 0x0050, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 6
+	Bus Address: 0000:00:1f.4
+
+Handle 0x0051, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 7
+	Bus Address: 0000:00:1f.5
+
+
+====Keyboard, Trackpad and Touchscreen====
+[    0.365346] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0
+[    0.365389] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[    0.365421] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+[    0.982029] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input3
+[    1.694090] input: PixArt USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/0003:093A:2510.0001/input/input4
+[    1.694140] hid-generic 0003:093A:2510.0001: input,hidraw0: USB HID v1.11 Mouse [PixArt USB Optical Mouse] on usb-0000:00:14.0-3/input0
+[    1.694226] input: CHICONY USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.0/0003:04F2:0116.0002/input/input5
+[    1.753040] hid-generic 0003:04F2:0116.0002: input,hidraw1: USB HID v1.10 Keyboard [CHICONY USB Keyboard] on usb-0000:00:14.0-4/input0
+[    4.610230] input: Eee PC WMI hotkeys as /devices/platform/eeepc-wmi/input/input6
+[    6.144372] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[    6.186326] input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input7
+[    6.186456] input: HDA Intel PCH Rear Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input8
+[    6.186563] input: HDA Intel PCH Line as /devices/pci0000:00/0000:00:1f.3/sound/card0/input9
+[    6.186674] input: HDA Intel PCH Line Out as /devices/pci0000:00/0000:00:1f.3/sound/card0/input10
+[    6.186797] input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1f.3/sound/card0/input11
+[    6.186888] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input12
+[    6.186974] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input13
+[    6.187058] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input14
+[   16.065505] rfkill: input handler disabled
+[   61.813288] rfkill: input handler enabled
+[   64.315096] rfkill: input handler disabled
+
+====AUDIO CODEC====
+**** List of PLAYBACK Hardware Devices ****
+card 0: PCH [HDA Intel PCH], device 0: ALC887-VD Analog [ALC887-VD Analog]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: PCH [HDA Intel PCH], device 1: ALC887-VD Digital [ALC887-VD Digital]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: PCH [HDA Intel PCH], device 3: HDMI 0 [HDMI 0]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: PCH [HDA Intel PCH], device 7: HDMI 1 [HDMI 1]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: PCH [HDA Intel PCH], device 8: HDMI 2 [HDMI 2]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+====NETWORK CONTROLLER MODELS====
+H/W path       Device     Class          Description
+====================================================
+/0/100/1c.7/0  enp2s0     network        RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+
+====DRIVE MODEL====
+  *-sata
+       description: SATA controller
+       product: Cannon Lake PCH SATA AHCI Controller
+       vendor: Intel Corporation
+       physical id: 17
+       bus info: pci@0000:00:17.0
+       version: 10
+       width: 32 bits
+       clock: 66MHz
+       capabilities: sata msi pm ahci_1.0 bus_master cap_list
+       configuration: driver=ahci latency=0
+       resources: irq:122 memory:a1214000-a1215fff memory:a1219000-a12190ff ioport:4070(size=8) ioport:4060(size=4) ioport:4040(size=32) memory:a1218000-a12187ff
+  *-scsi:0
+       physical id: a
+       logical name: scsi1
+       capabilities: emulated
+     *-disk
+          description: ATA Disk
+          product: ST1000DM010-2EP1
+          physical id: 0.0.0
+          bus info: scsi@1:0.0.0
+          logical name: /dev/sda
+          version: CC43
+          serial: ZN14T034
+          size: 931GiB (1TB)
+          capabilities: gpt-1.00 partitioned partitioned:gpt
+          configuration: ansiversion=5 guid=c14eb50a-72ec-4359-91d9-e2fdf889c498 logicalsectorsize=512 sectorsize=4096
+  *-scsi:1
+       physical id: b
+       logical name: scsi2
+       capabilities: emulated
+     *-disk
+          description: ATA Disk
+          product: ULIKE SSD 240GB
+          physical id: 0.0.0
+          bus info: scsi@2:0.0.0
+          logical name: /dev/sdb
+          version: 0326
+          serial: YS2020030458
+          size: 223GiB (240GB)
+          capabilities: gpt-1.00 partitioned partitioned:gpt
+          configuration: ansiversion=5 guid=406c0e1d-3424-45c8-b975-1674c13b4890 logicalsectorsize=512 sectorsize=512
